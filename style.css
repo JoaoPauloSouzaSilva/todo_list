@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #FBA2C7, #AD5F80);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 7px 10px #7A5061;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 40pt;
+}
+
+.input-container {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button{
+  background-color: #da3860cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+li button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.completed {
+  color: #888; /* Cor mais clara para o texto concluído */
+  text-decoration: line-through;
+  text-decoration-thickness: 2px; /* Espessura da linha mais grossa */
+  text-decoration-color:#F5428D; /* Cor da linha mais evidente */
+  
+}
+
+ .complete-button{
+   border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 0px;
+  background-color: #fff;
+  color:#F5428D;
+
+} 
+
+.edit-button{
+   border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+  background-color: #f5428db4;
+
+}
+
+.delete-button{
+   border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-right: 0px;
+  background-color: #b54373d2;
+}
+
+span{
+  width: 100%;
+  text-align: left;
+}
+
+.date-time {
+  text-align: left;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  font-weight: 100;
+  font-size: pt;
+
+}
+
+p {
+  margin: 0;
+}
+
+#day{
+  margin-right: 2px;
+}

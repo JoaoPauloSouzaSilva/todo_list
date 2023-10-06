@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="icon" href="img/verificado.png" type="image/x-icon">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Minha Lista de Tarefas</h1>
+        <div class="date-time">
+            <p id="day"></p>
+            <p id="month"></p>
+        </div>
+        <div class="input-container">
+            <input type="text" id="task" maxlength="50" placeholder="Adicionar nova tarefa">
+            <button  class= "button-add" onclick="addTask()">Adicionar</button>
+        </div>
+        <ul id="task-list">
+            <!-- Tarefas serão exibidas aqui -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- https://www.figma.com/file/v5lkdfKGRN1cKoyEGuvVtx/Untitled?type=design&node-id=0%3A1&mode=design&t=9rdWDsTvG9GEwjIs-1 -->
